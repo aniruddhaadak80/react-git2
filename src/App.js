@@ -43,14 +43,33 @@ function App() {
   <h1 >name:Aniruddha Adak</h1>
 
 
- </div>
+ </div >
 
 
       <br/>
       <br/>
-
+<div style={{backgroundColor:"blue",height:"300px",width:"500px"}}>
 <h2>i will come Again</h2>
 <h3>Again...</h3>
+
+<button>I am a coder .I have Just started .</button>
+<br/>
+<button>I am a coder .I have Just started .</button>
+<br/>
+
+<button>I am a coder .I have Just started .</button>
+<br/>
+<button>I am a coder .I have Just started .</button>
+<br/>
+
+<button>I am a coder .I have Just started .</button>
+<br/>
+<button>I am a coder .I have Just started .</button>
+<br/>
+
+
+
+</div>
 
 
      </div>

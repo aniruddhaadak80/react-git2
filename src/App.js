@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -23,9 +22,9 @@ function App() {
      {/* nested div of 1st div  */}
       <div style={{backgroundColor:"green" , height:"200px" ,width:"400px"}}  >
 <h2>love you 💖💖💖💖💖💖 </h2>
-<marquee behavior="alternate">I am Ani</marquee>
+<span className="marquee-text">I am Ani</span>
 <h3>corporate world 👇👇👇</h3>
-<img  style={{height:"300px",width:"400px"}} src='https://image.lexica.art/full_jpg/34a3cc91-a6f8-43dc-9875-8ec0e3fb4df9'/>
+<img  style={{height:"300px",width:"400px"}} src='https://image.lexica.art/full_jpg/34a3cc91-a6f8-43dc-9875-8ec0e3fb4df9' alt=''/>
 
 
  

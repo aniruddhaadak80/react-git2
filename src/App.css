@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+/* Replaces the deprecated <marquee> element that was used here before. */
+.marquee-text {
+  display: inline-block;
+  animation: marquee-text-slide 3s ease-in-out infinite alternate;
+}
+
+@keyframes marquee-text-slide {
+  from {
+    transform: translateX(-60px);
+  }
+  to {
+    transform: translateX(60px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-text {
+    animation: none;
+  }
+}
